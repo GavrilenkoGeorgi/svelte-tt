@@ -3,7 +3,8 @@
   console.log(data)
 </script>
 
-<div class='posts-container'>
+<div class='posts'>
+  <h1 class='posts__heading'>Public API posts</h1>
   {#each data.posts as post}
     <div class='post'>
       <h1 class='post__title'>
@@ -17,9 +18,12 @@
 </div>
 
 <style>
-  .posts-container {
+  .posts {
     max-width: 960px;
     margin: auto;
+  }
+  .posts__heading {
+    text-align: center;
   }
   .post {
     margin: 1rem;
@@ -27,5 +31,4 @@
     border-radius: .25rem;
     padding: 1rem;
   }
-
 </style>
