@@ -3,5 +3,10 @@
 </script>
 
 <h1>Derived store example</h1>
-<p>Form goes here</p>
 <Form />
+
+<style>
+  h1 {
+    text-align: center;
+  }
+</style>

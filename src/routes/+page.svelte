@@ -1,3 +1,10 @@
-<h1>Welcome to SvelteKit!</h1>
-<p>Visit <a href='https://kit.svelte.dev'>kit.svelte.dev</a> to read the documentation</p>
-<a href='/derived'>Derived store example</a>
+<div class='main'>
+  <h1>Svelte kit test task</h1>
+  <p>Swelte kit web app with custom theming</p>
+</div>
+
+<style>
+  .main {
+    text-align: center;
+  }
+</style>

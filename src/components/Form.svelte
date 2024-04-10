@@ -14,12 +14,23 @@
 
 </script>
 
-<form> <!-- style this -->
+<form class='form'>
   <FirstInput />
   <SecondInput />
   <ThirdInput />
 </form>
 
-<div>
+<div class='results'>
   Derived from three stores: {$result}
 </div>
+
+<style>
+  .form {
+    display: flex;
+    justify-content: center;
+  }
+  .results {
+    text-align: center;
+    margin-top: 1rem;
+  }
+</style>

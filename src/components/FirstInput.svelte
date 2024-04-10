@@ -15,5 +15,3 @@
   max='10'
   on:change={(e) => handleUpdate(e.currentTarget.value)}
 />
-
-<p>current value {$firstNum}</p>
