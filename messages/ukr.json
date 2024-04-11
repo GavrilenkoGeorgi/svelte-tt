@@ -1,7 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "mainPageTitle": "Тестове завдання Sveltekit",
-  "mainPageInfo": "Веб-застосунок Swelte kit із темами оформлення",
+  "mainPageInfo": "Веб-застосунок Swelte kit з темами та інтернаціоналізацією",
   "navLinkMain": "Головна сторінка",
   "navLinkStore": "Приклад Derived store",
   "navLinkPublicAPI": "Приклад використання загальнодоступного API",
