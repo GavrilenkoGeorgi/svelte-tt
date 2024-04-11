@@ -1,18 +1,13 @@
-# create-svelte
+# Svelte test task
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
 
-## Creating a project
+## What's missing
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. Themes with replaceable components/styles (system, light/dark themes are present and customisable)
+2. Proper tests for the public API (info about using vitest for testing API responses is very scarce, maybe other testing libraries can be used to test this functionality)
+3. Changing language requires page reload (this seems like a fixable issue, but again Paraglide JS that is used is rather new, so stackoverflow isn't very helpful yet)
+4. FSD project structure is done as close as possible to the given recommendations (Svelte enforces rather 'hardcoded' folder structure for routing, other than that all new components can be placed and separated as needed)
 
 ## Developing
 
@@ -34,5 +29,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
