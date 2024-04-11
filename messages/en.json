@@ -1,0 +1,12 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "mainPageTitle": "Svelte kit test task",
+  "mainPageInfo": "Swelte kit web app with custom theming",
+  "navLinkMain": "Main page",
+  "navLinkStore": "Derived store example",
+  "navLinkPublicAPI": "Public API posts",
+  "storeCalcResult": "Derived from three stores:",
+  "systemThemeName": "System",
+  "lightThemeName": "Light",
+  "darkThemeName": "Dark"
+}

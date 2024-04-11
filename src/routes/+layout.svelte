@@ -1,7 +1,9 @@
 <script>
   import '../app.pcss'
   import { theme } from '../stores/themeStore'
-  import NavBar from '../components/NavBar.svelte';
+  import NavBar from '../components/NavBar.svelte'
+  import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit'
+  import { i18n } from '$lib/i18n.js'
 </script>
 
 <svelte:head>
@@ -9,5 +11,7 @@
   <link rel='stylesheet' href={`/theme/${$theme}.css`} />
 </svelte:head>
 
-<NavBar />
-<slot></slot>
+<ParaglideJS {i18n}>
+  <NavBar />
+  <slot />
+</ParaglideJS>
