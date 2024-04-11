@@ -21,6 +21,7 @@
   .posts {
     max-width: 960px;
     margin: auto;
+    padding: .5rem;
   }
   .posts__heading {
     text-align: center;
