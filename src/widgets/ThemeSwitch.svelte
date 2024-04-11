@@ -1,6 +1,6 @@
 <script>
   import * as m from '../paraglide/messages'
-  import { theme } from '../stores/themeStore'
+  import { theme } from '$lib/themeStore'
 </script>
 
 <div class='theme'>

@@ -1,7 +1,7 @@
 <script>
   import '../app.pcss'
-  import { theme } from '../stores/themeStore'
-  import NavBar from '../components/NavBar.svelte'
+  import { theme } from '$lib/themeStore'
+  import NavBar from '../pages/components/NavBar.svelte'
   import { ParaglideJS } from '@inlang/paraglide-js-adapter-sveltekit'
   import { i18n } from '$lib/i18n.js'
 </script>
