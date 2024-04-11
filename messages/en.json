@@ -1,7 +1,7 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
   "mainPageTitle": "Svelte kit test task",
-  "mainPageInfo": "Swelte kit web app with custom theming",
+  "mainPageInfo": "Swelte kit web app with theming and internationalization",
   "navLinkMain": "Main page",
   "navLinkStore": "Derived store example",
   "navLinkPublicAPI": "Public API posts",
