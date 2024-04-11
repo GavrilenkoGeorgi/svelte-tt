@@ -1,9 +1,9 @@
 <script>
-  import * as m from '../paraglide/messages'
+  import * as m from '$lib/paraglide/messages'
   import { derived } from 'svelte/store'
-  import { firstNum } from '../stores/firstStore'
-  import { secondNum } from '../stores/secondStore'
-  import { thirdNum } from '../stores/thirdStore'
+  import { firstNum } from '$lib/firstStore'
+  import { secondNum } from '$lib/secondStore'
+  import { thirdNum } from '$lib/thirdStore'
 
   import FirstInput from './FirstInput.svelte'
   import SecondInput from './SecondInput.svelte'

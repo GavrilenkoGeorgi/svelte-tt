@@ -1,7 +1,7 @@
 <script>
-  import * as m from '../paraglide/messages'
-  import ThemeSwitch from '../components/ThemeSwitch.svelte'
-  import LangSwitch from './LangSwitch.svelte'
+  import * as m from '$lib/paraglide/messages'
+  import ThemeSwitch from '../../widgets/ThemeSwitch.svelte'
+  import LangSwitch from '../../widgets/LangSwitch.svelte'
 </script>
 
 <nav class='navbar'>

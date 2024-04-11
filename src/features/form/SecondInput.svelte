@@ -1,5 +1,5 @@
 <script>
-  import { secondNum } from '../stores/secondStore'
+  import { secondNum } from '$lib/secondStore'
 
   const handleUpdate = (num) => {
     $secondNum = num
