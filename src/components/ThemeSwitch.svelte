@@ -1,9 +1,10 @@
 <script>
+  import * as m from '../paraglide/messages'
   import { theme } from '../stores/themeStore'
 </script>
 
 <select bind:value='{$theme}'>
-  <option value='system'>System</option>
-  <option value='light'>Light</option>
-  <option value='dark'>Dark</option>
+  <option value='system'>{m.systemThemeName()}</option>
+  <option value='light'>{m.lightThemeName()}</option>
+  <option value='dark'>{m.darkThemeName()}</option>
 </select>

@@ -1,13 +1,16 @@
 <script>
+  import * as m from '../paraglide/messages'
   import ThemeSwitch from '../components/ThemeSwitch.svelte'
+  import LangSwitch from './LangSwitch.svelte'
 </script>
 
 <nav>
   <div class='navbar'>
-    <a class='navbar__link' href='/'>Main page</a>
-    <a class='navbar__link' href='/derived'>Derived store example</a>
-    <a class='navbar__link' href='/posts'>Public API posts</a>
+    <a class='navbar__link' href='/'>{m.navLinkMain()}</a>
+    <a class='navbar__link' href='/derived'>{m.navLinkStore()}</a>
+    <a class='navbar__link' href='/posts'>{m.navLinkPublicAPI()}</a>
   </div>
+  <LangSwitch />
   <ThemeSwitch />
 </nav>
 

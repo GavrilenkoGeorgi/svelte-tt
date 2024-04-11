@@ -1,0 +1,12 @@
+{
+  "$schema": "https://inlang.com/schema/inlang-message-format",
+  "mainPageTitle": "Тестове завдання Sveltekit",
+  "mainPageInfo": "Веб-застосунок Swelte kit із темами оформлення",
+  "navLinkMain": "Головна сторінка",
+  "navLinkStore": "Приклад Derived store",
+  "navLinkPublicAPI": "Приклад використання загальнодоступного API",
+  "storeCalcResult": "Результат з трьох store:",
+  "systemThemeName": "Системна",
+  "lightThemeName": "Світла",
+  "darkThemeName": "Темна"
+}

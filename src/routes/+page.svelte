@@ -1,6 +1,10 @@
+<script>
+  import * as m from '../paraglide/messages'
+</script>
+
 <div class='main'>
-  <h1>Svelte kit test task</h1>
-  <p>Swelte kit web app with custom theming</p>
+  <h1>{m.mainPageTitle()}</h1>
+  <p>{m.mainPageInfo()}</p>
 </div>
 
 <style>

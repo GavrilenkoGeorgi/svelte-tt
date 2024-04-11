@@ -1,10 +1,10 @@
 <script>
+  import * as m from '../../paraglide/messages'
   export let data
-  console.log(data)
 </script>
 
 <div class='posts'>
-  <h1 class='posts__heading'>Public API posts</h1>
+  <h1 class='posts__heading'>{m.navLinkPublicAPI()}</h1>
   {#each data.posts as post}
     <div class='post'>
       <h1 class='post__title'>

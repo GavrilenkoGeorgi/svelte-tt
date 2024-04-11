@@ -1,4 +1,5 @@
 <script>
+  import * as m from '../paraglide/messages'
   import { derived } from 'svelte/store'
   import { firstNum } from '../stores/firstStore'
   import { secondNum } from '../stores/secondStore'
@@ -21,7 +22,7 @@
 </form>
 
 <div class='results'>
-  Derived from three stores: {$result}
+  {m.storeCalcResult()} {$result}
 </div>
 
 <style>

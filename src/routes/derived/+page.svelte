@@ -1,8 +1,9 @@
 <script>
+  import * as m from '../../paraglide/messages'
   import Form from '../../components/Form.svelte'
 </script>
 
-<h1>Derived store example</h1>
+<h1>{m.navLinkStore()}</h1>
 <Form />
 
 <style>
